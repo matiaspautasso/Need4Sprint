@@ -7,14 +7,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Need4Sprint.Properties;
 
 namespace Need4Sprint
 {
-    public partial class Form1 : Form
+    public partial class FrmCrearCta : Form
     {
-        public Form1()
+        public FrmCrearCta()
         {
             InitializeComponent();
+        }
+
+        private void FrmCrearCta_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
