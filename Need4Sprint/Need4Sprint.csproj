@@ -52,6 +52,18 @@
     <Compile Include="FrmCrearCta.Designer.cs">
       <DependentUpon>FrmCrearCta.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEstadis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstadis.Designer.cs">
+      <DependentUpon>frmEstadis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHisVt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHisVt.Designer.cs">
+      <DependentUpon>frmHisVt.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,16 +77,31 @@
       <DependentUpon>frmLogin.cs</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmRegVt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegVt.Designer.cs">
+      <DependentUpon>frmRegVt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmCrearCta.resx">
       <DependentUpon>FrmCrearCta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstadis.resx">
+      <DependentUpon>frmEstadis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHisVt.resx">
+      <DependentUpon>frmHisVt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegVt.resx">
+      <DependentUpon>frmRegVt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

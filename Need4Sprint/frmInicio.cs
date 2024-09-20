@@ -16,5 +16,29 @@ namespace Need4Sprint
         {
             InitializeComponent();
         }
+
+        private void registroDeVentaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmRegVt frmreg = new frmRegVt();
+            this.Hide();
+            frmreg.ShowDialog();
+            this.Show();
+        }
+
+        private void historialDeVentasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHisVt frmhis = new frmHisVt();
+            this.Hide();
+            frmhis.ShowDialog();
+            this.Show();
+        }
+
+        private void estadísticasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmEstadis frmEsta = new frmEstadis();
+            this.Hide();
+            frmEsta.ShowDialog();
+            this.Show();
+        }
     }
 }
