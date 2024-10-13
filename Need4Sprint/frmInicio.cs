@@ -40,5 +40,16 @@ namespace Need4Sprint
             frmEsta.ShowDialog();
             this.Show();
         }
+
+        private void crearCuentaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCrearCta fr=new FrmCrearCta();   
+            fr.ShowDialog();
+        }
+
+        private void ventasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+          
+        }
     }
 }
