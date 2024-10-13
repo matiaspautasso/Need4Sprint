@@ -16,5 +16,11 @@ namespace Need4Sprint
         {
             InitializeComponent();
         }
+
+        private void frmRegVt_Load(object sender, EventArgs e)
+        {
+            DgvMostrar.ColumnHeadersDefaultCellStyle.Font = new Font(DgvMostrar.Font, FontStyle.Bold);
+            DgvMostrar.ColumnHeadersDefaultCellStyle.Font = new Font("Arial", 14);
+        }
     }
 }

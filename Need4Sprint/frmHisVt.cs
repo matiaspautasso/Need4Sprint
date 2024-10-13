@@ -16,5 +16,10 @@ namespace Need4Sprint
         {
             InitializeComponent();
         }
+
+        private void frmHisVt_Load(object sender, EventArgs e)
+        {
+            //ver aca de implementar en cajas de texto autocompletar para mejorar busqueda al usuario
+        }
     }
 }

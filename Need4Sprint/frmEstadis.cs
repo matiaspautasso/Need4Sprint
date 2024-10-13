@@ -16,5 +16,10 @@ namespace Need4Sprint
         {
             InitializeComponent();
         }
+
+        private void frmEstadis_Load(object sender, EventArgs e)
+        {
+            //averiguar bien como funciona  el chart con respecto a los datos a mostrar
+        }
     }
 }
