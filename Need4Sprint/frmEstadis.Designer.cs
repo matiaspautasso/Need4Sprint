@@ -114,7 +114,7 @@
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chrMostrar.Series.Add(series1);
-            this.chrMostrar.Size = new System.Drawing.Size(514, 420);
+            this.chrMostrar.Size = new System.Drawing.Size(514, 540);
             this.chrMostrar.TabIndex = 21;
             this.chrMostrar.Text = "chart1";
             // 
@@ -138,7 +138,7 @@
             // btnMostrar
             // 
             this.btnMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMostrar.Location = new System.Drawing.Point(91, 317);
+            this.btnMostrar.Location = new System.Drawing.Point(87, 358);
             this.btnMostrar.Name = "btnMostrar";
             this.btnMostrar.Size = new System.Drawing.Size(141, 62);
             this.btnMostrar.TabIndex = 21;
@@ -148,7 +148,7 @@
             // btnVolver
             // 
             this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.Location = new System.Drawing.Point(442, 492);
+            this.btnVolver.Location = new System.Drawing.Point(442, 601);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(141, 62);
             this.btnVolver.TabIndex = 23;
@@ -159,7 +159,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1050, 657);
+            this.ClientSize = new System.Drawing.Size(1050, 675);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.grpDatos);
             this.Controls.Add(this.chrMostrar);
