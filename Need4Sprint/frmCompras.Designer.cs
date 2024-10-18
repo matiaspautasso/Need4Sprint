@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCompras));
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.registroDeComprasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -56,43 +57,46 @@
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(18, 18);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.registroDeComprasToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(197, 28);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(188, 26);
             // 
             // registroDeComprasToolStripMenuItem
             // 
             this.registroDeComprasToolStripMenuItem.Name = "registroDeComprasToolStripMenuItem";
-            this.registroDeComprasToolStripMenuItem.Size = new System.Drawing.Size(196, 24);
+            this.registroDeComprasToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.registroDeComprasToolStripMenuItem.Text = "Gestion inventarios";
             // 
             // contextMenuStrip2
             // 
+            this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(18, 18);
             this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.registroDeComprasToolStripMenuItem1});
             this.contextMenuStrip2.Name = "contextMenuStrip2";
-            this.contextMenuStrip2.Size = new System.Drawing.Size(204, 28);
+            this.contextMenuStrip2.Size = new System.Drawing.Size(200, 26);
             // 
             // registroDeComprasToolStripMenuItem1
             // 
             this.registroDeComprasToolStripMenuItem1.Name = "registroDeComprasToolStripMenuItem1";
-            this.registroDeComprasToolStripMenuItem1.Size = new System.Drawing.Size(203, 24);
+            this.registroDeComprasToolStripMenuItem1.Size = new System.Drawing.Size(199, 22);
             this.registroDeComprasToolStripMenuItem1.Text = "Registro de compras";
             // 
             // contextMenuStrip3
             // 
+            this.contextMenuStrip3.ImageScalingSize = new System.Drawing.Size(18, 18);
             this.contextMenuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.registroDeComprasToolStripMenuItem2});
             this.contextMenuStrip3.Name = "contextMenuStrip3";
-            this.contextMenuStrip3.Size = new System.Drawing.Size(210, 28);
+            this.contextMenuStrip3.Size = new System.Drawing.Size(200, 26);
             // 
             // registroDeComprasToolStripMenuItem2
             // 
             this.registroDeComprasToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.gestionDeInventariosToolStripMenuItem});
             this.registroDeComprasToolStripMenuItem2.Name = "registroDeComprasToolStripMenuItem2";
-            this.registroDeComprasToolStripMenuItem2.Size = new System.Drawing.Size(209, 24);
+            this.registroDeComprasToolStripMenuItem2.Size = new System.Drawing.Size(199, 22);
             this.registroDeComprasToolStripMenuItem2.Text = "REGISTRO COMPRAS";
             // 
             // gestionDeInventariosToolStripMenuItem
@@ -100,7 +104,7 @@
             this.gestionDeInventariosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.historialDeComprasToolStripMenuItem});
             this.gestionDeInventariosToolStripMenuItem.Name = "gestionDeInventariosToolStripMenuItem";
-            this.gestionDeInventariosToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.gestionDeInventariosToolStripMenuItem.Size = new System.Drawing.Size(162, 24);
             this.gestionDeInventariosToolStripMenuItem.Text = "INVENTARIOS";
             this.gestionDeInventariosToolStripMenuItem.Click += new System.EventHandler(this.gestionDeInventariosToolStripMenuItem_Click);
             // 
@@ -109,41 +113,43 @@
             this.historialDeComprasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pAGOSToolStripMenuItem});
             this.historialDeComprasToolStripMenuItem.Name = "historialDeComprasToolStripMenuItem";
-            this.historialDeComprasToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.historialDeComprasToolStripMenuItem.Size = new System.Drawing.Size(146, 24);
             this.historialDeComprasToolStripMenuItem.Text = "HISTORIAL ";
             // 
             // pAGOSToolStripMenuItem
             // 
             this.pAGOSToolStripMenuItem.Name = "pAGOSToolStripMenuItem";
-            this.pAGOSToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.pAGOSToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.pAGOSToolStripMenuItem.Text = "PAGOS";
             // 
             // contextMenuStrip4
             // 
+            this.contextMenuStrip4.ImageScalingSize = new System.Drawing.Size(18, 18);
             this.contextMenuStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.rEGISTROCOMPRASToolStripMenuItem});
             this.contextMenuStrip4.Name = "contextMenuStrip4";
-            this.contextMenuStrip4.Size = new System.Drawing.Size(210, 28);
+            this.contextMenuStrip4.Size = new System.Drawing.Size(200, 26);
             // 
             // rEGISTROCOMPRASToolStripMenuItem
             // 
             this.rEGISTROCOMPRASToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuCompras});
             this.rEGISTROCOMPRASToolStripMenuItem.Name = "rEGISTROCOMPRASToolStripMenuItem";
-            this.rEGISTROCOMPRASToolStripMenuItem.Size = new System.Drawing.Size(209, 24);
+            this.rEGISTROCOMPRASToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.rEGISTROCOMPRASToolStripMenuItem.Text = "REGISTRO COMPRAS";
             // 
             // MenuCompras
             // 
             this.MenuCompras.Name = "MenuCompras";
-            this.MenuCompras.Size = new System.Drawing.Size(223, 24);
+            this.MenuCompras.Size = new System.Drawing.Size(219, 24);
             this.MenuCompras.Text = "GESTION INVENTARIOS";
             // 
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuStrip1.Location = new System.Drawing.Point(0, 38);
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(18, 18);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 40);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 4;
@@ -153,6 +159,7 @@
             // 
             this.menuStrip2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.menuStrip2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip2.ImageScalingSize = new System.Drawing.Size(18, 18);
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuRegistro,
             this.menuInventario,
@@ -160,41 +167,43 @@
             this.MenuPagos});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(800, 38);
+            this.menuStrip2.Size = new System.Drawing.Size(800, 40);
             this.menuStrip2.TabIndex = 5;
             this.menuStrip2.Text = "menuStrip2";
             // 
             // MenuRegistro
             // 
             this.MenuRegistro.Name = "MenuRegistro";
-            this.MenuRegistro.Size = new System.Drawing.Size(132, 34);
+            this.MenuRegistro.Size = new System.Drawing.Size(148, 36);
             this.MenuRegistro.Text = "REGISTRO ";
             // 
             // menuInventario
             // 
             this.menuInventario.Name = "menuInventario";
-            this.menuInventario.Size = new System.Drawing.Size(250, 34);
+            this.menuInventario.Size = new System.Drawing.Size(281, 36);
             this.menuInventario.Text = "GESTION INVENTARIO";
             // 
             // menuHistorial
             // 
             this.menuHistorial.Name = "menuHistorial";
-            this.menuHistorial.Size = new System.Drawing.Size(134, 34);
+            this.menuHistorial.Size = new System.Drawing.Size(149, 36);
             this.menuHistorial.Text = "HISTORIAL";
             // 
             // MenuPagos
             // 
             this.MenuPagos.Name = "MenuPagos";
-            this.MenuPagos.Size = new System.Drawing.Size(95, 34);
+            this.MenuPagos.Size = new System.Drawing.Size(105, 36);
             this.MenuPagos.Text = "PAGOS";
             // 
             // frmCompras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.menuStrip2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmCompras";
             this.Text = "frmCompras";

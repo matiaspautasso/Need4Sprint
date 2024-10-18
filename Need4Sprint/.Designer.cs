@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.btnEntrar = new System.Windows.Forms.Button();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblContra = new System.Windows.Forms.Label();
@@ -56,7 +57,7 @@
             this.lblUsuario.Location = new System.Drawing.Point(20, 15);
             this.lblUsuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(60, 18);
+            this.lblUsuario.Size = new System.Drawing.Size(64, 20);
             this.lblUsuario.TabIndex = 1;
             this.lblUsuario.Text = "Usuario";
             // 
@@ -67,7 +68,7 @@
             this.lblContra.Location = new System.Drawing.Point(20, 42);
             this.lblContra.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblContra.Name = "lblContra";
-            this.lblContra.Size = new System.Drawing.Size(85, 18);
+            this.lblContra.Size = new System.Drawing.Size(92, 20);
             this.lblContra.TabIndex = 2;
             this.lblContra.Text = "Contraseña";
             // 
@@ -78,7 +79,7 @@
             this.lblPermiso.Location = new System.Drawing.Point(20, 69);
             this.lblPermiso.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPermiso.Name = "lblPermiso";
-            this.lblPermiso.Size = new System.Drawing.Size(64, 18);
+            this.lblPermiso.Size = new System.Drawing.Size(66, 20);
             this.lblPermiso.TabIndex = 3;
             this.lblPermiso.Text = "Permiso";
             // 
@@ -86,18 +87,18 @@
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.Location = new System.Drawing.Point(103, 13);
-            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(102, 24);
+            this.txtUsuario.Size = new System.Drawing.Size(102, 25);
             this.txtUsuario.TabIndex = 4;
             // 
             // txtContra
             // 
             this.txtContra.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContra.Location = new System.Drawing.Point(103, 40);
-            this.txtContra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtContra.Margin = new System.Windows.Forms.Padding(2);
             this.txtContra.Name = "txtContra";
-            this.txtContra.Size = new System.Drawing.Size(102, 24);
+            this.txtContra.Size = new System.Drawing.Size(102, 25);
             this.txtContra.TabIndex = 5;
             // 
             // txtPermiso
@@ -105,9 +106,9 @@
             this.txtPermiso.Enabled = false;
             this.txtPermiso.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPermiso.Location = new System.Drawing.Point(103, 67);
-            this.txtPermiso.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPermiso.Margin = new System.Windows.Forms.Padding(2);
             this.txtPermiso.Name = "txtPermiso";
-            this.txtPermiso.Size = new System.Drawing.Size(102, 24);
+            this.txtPermiso.Size = new System.Drawing.Size(102, 25);
             this.txtPermiso.TabIndex = 6;
             // 
             // lblCrear
@@ -117,7 +118,7 @@
             this.lblCrear.Location = new System.Drawing.Point(55, 135);
             this.lblCrear.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCrear.Name = "lblCrear";
-            this.lblCrear.Size = new System.Drawing.Size(104, 18);
+            this.lblCrear.Size = new System.Drawing.Size(113, 20);
             this.lblCrear.TabIndex = 7;
             this.lblCrear.Text = "Crear Cuenta?";
             this.lblCrear.Click += new System.EventHandler(this.lblCrear_Click);
@@ -146,6 +147,7 @@
             this.Controls.Add(this.lblContra);
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.btnEntrar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmLogin";
             this.Text = "Login";
             this.ResumeLayout(false);

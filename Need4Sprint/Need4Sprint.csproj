@@ -65,6 +65,12 @@
     <Compile Include="frmEstadis.Designer.cs">
       <DependentUpon>frmEstadis.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmGestionInventarioscompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionInventarioscompra.Designer.cs">
+      <DependentUpon>frmGestionInventarioscompra.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmHisVt.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +112,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEstadis.resx">
       <DependentUpon>frmEstadis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionInventarioscompra.resx">
+      <DependentUpon>frmGestionInventarioscompra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmHisVt.resx">
       <DependentUpon>frmHisVt.cs</DependentUpon>

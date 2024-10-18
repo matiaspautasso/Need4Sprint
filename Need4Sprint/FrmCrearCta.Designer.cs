@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCrearCta));
             this.btnVolver = new System.Windows.Forms.Button();
             this.txtContra = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
@@ -41,10 +42,9 @@
             // btnVolver
             // 
             this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.Location = new System.Drawing.Point(13, 144);
-            this.btnVolver.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVolver.Location = new System.Drawing.Point(10, 117);
             this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(141, 29);
+            this.btnVolver.Size = new System.Drawing.Size(106, 24);
             this.btnVolver.TabIndex = 16;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
@@ -53,26 +53,29 @@
             // txtContra
             // 
             this.txtContra.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContra.Location = new System.Drawing.Point(175, 39);
+            this.txtContra.Location = new System.Drawing.Point(131, 32);
+            this.txtContra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtContra.Name = "txtContra";
-            this.txtContra.Size = new System.Drawing.Size(134, 28);
+            this.txtContra.Size = new System.Drawing.Size(102, 25);
             this.txtContra.TabIndex = 14;
             // 
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(175, 6);
+            this.txtUsuario.Location = new System.Drawing.Point(131, 5);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(134, 28);
+            this.txtUsuario.Size = new System.Drawing.Size(102, 25);
             this.txtUsuario.TabIndex = 13;
             // 
             // lblPermiso
             // 
             this.lblPermiso.AutoSize = true;
             this.lblPermiso.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPermiso.Location = new System.Drawing.Point(22, 75);
+            this.lblPermiso.Location = new System.Drawing.Point(16, 61);
+            this.lblPermiso.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPermiso.Name = "lblPermiso";
-            this.lblPermiso.Size = new System.Drawing.Size(75, 22);
+            this.lblPermiso.Size = new System.Drawing.Size(66, 20);
             this.lblPermiso.TabIndex = 12;
             this.lblPermiso.Text = "Permiso";
             // 
@@ -80,9 +83,10 @@
             // 
             this.lblContra.AutoSize = true;
             this.lblContra.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContra.Location = new System.Drawing.Point(22, 42);
+            this.lblContra.Location = new System.Drawing.Point(16, 34);
+            this.lblContra.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblContra.Name = "lblContra";
-            this.lblContra.Size = new System.Drawing.Size(103, 22);
+            this.lblContra.Size = new System.Drawing.Size(92, 20);
             this.lblContra.TabIndex = 11;
             this.lblContra.Text = "Contraseña";
             // 
@@ -90,19 +94,19 @@
             // 
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(22, 9);
+            this.lblUsuario.Location = new System.Drawing.Point(16, 7);
+            this.lblUsuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(72, 22);
+            this.lblUsuario.Size = new System.Drawing.Size(64, 20);
             this.lblUsuario.TabIndex = 10;
             this.lblUsuario.Text = "Usuario";
             // 
             // btnCrear
             // 
             this.btnCrear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCrear.Location = new System.Drawing.Point(13, 107);
-            this.btnCrear.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCrear.Location = new System.Drawing.Point(10, 87);
             this.btnCrear.Name = "btnCrear";
-            this.btnCrear.Size = new System.Drawing.Size(141, 29);
+            this.btnCrear.Size = new System.Drawing.Size(106, 24);
             this.btnCrear.TabIndex = 9;
             this.btnCrear.Text = "Crear";
             this.btnCrear.UseVisualStyleBackColor = true;
@@ -114,16 +118,17 @@
             this.cboPermiso.Items.AddRange(new object[] {
             "admin",
             "vendedor"});
-            this.cboPermiso.Location = new System.Drawing.Point(175, 72);
+            this.cboPermiso.Location = new System.Drawing.Point(131, 58);
+            this.cboPermiso.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cboPermiso.Name = "cboPermiso";
-            this.cboPermiso.Size = new System.Drawing.Size(134, 30);
+            this.cboPermiso.Size = new System.Drawing.Size(102, 28);
             this.cboPermiso.TabIndex = 17;
             // 
             // FrmCrearCta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(321, 184);
+            this.ClientSize = new System.Drawing.Size(241, 150);
             this.Controls.Add(this.cboPermiso);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.txtContra);
@@ -132,6 +137,8 @@
             this.Controls.Add(this.lblContra);
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.btnCrear);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmCrearCta";
             this.Text = "Crear Cuenta";
             this.Load += new System.EventHandler(this.FrmCrearCta_Load);
