@@ -23,9 +23,11 @@ namespace Need4Sprint
 
         }
 
-        private void btnVolver_Click(object sender, EventArgs e)
+        private void lblIni_Click(object sender, EventArgs e)
         {
             Close();
         }
+
+
     }
 }

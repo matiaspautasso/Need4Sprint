@@ -17,7 +17,7 @@ namespace Need4Sprint
             InitializeComponent();
         }
 
-        private void lblCrear_Click(object sender, EventArgs e)
+        private void lblRegistrarse_Click(object sender, EventArgs e)
         {
             // Crear una instancia del formulario FrmCrearCta
             FrmCrearCta frmCrear = new FrmCrearCta();

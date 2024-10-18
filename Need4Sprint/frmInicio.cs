@@ -51,5 +51,16 @@ namespace Need4Sprint
         {
           
         }
+
+        private void comprasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCompras fr = new frmCompras();
+            fr.ShowDialog();
+        }
+
+        private void frmInicio_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

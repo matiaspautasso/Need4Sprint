@@ -59,12 +59,12 @@
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.registroDeComprasToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(197, 28);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(176, 26);
             // 
             // registroDeComprasToolStripMenuItem
             // 
             this.registroDeComprasToolStripMenuItem.Name = "registroDeComprasToolStripMenuItem";
-            this.registroDeComprasToolStripMenuItem.Size = new System.Drawing.Size(196, 24);
+            this.registroDeComprasToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.registroDeComprasToolStripMenuItem.Text = "Gestion inventarios";
             // 
             // contextMenuStrip2
@@ -72,12 +72,12 @@
             this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.registroDeComprasToolStripMenuItem1});
             this.contextMenuStrip2.Name = "contextMenuStrip2";
-            this.contextMenuStrip2.Size = new System.Drawing.Size(204, 28);
+            this.contextMenuStrip2.Size = new System.Drawing.Size(183, 26);
             // 
             // registroDeComprasToolStripMenuItem1
             // 
             this.registroDeComprasToolStripMenuItem1.Name = "registroDeComprasToolStripMenuItem1";
-            this.registroDeComprasToolStripMenuItem1.Size = new System.Drawing.Size(203, 24);
+            this.registroDeComprasToolStripMenuItem1.Size = new System.Drawing.Size(182, 22);
             this.registroDeComprasToolStripMenuItem1.Text = "Registro de compras";
             // 
             // contextMenuStrip3
@@ -85,14 +85,14 @@
             this.contextMenuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.registroDeComprasToolStripMenuItem2});
             this.contextMenuStrip3.Name = "contextMenuStrip3";
-            this.contextMenuStrip3.Size = new System.Drawing.Size(210, 28);
+            this.contextMenuStrip3.Size = new System.Drawing.Size(186, 26);
             // 
             // registroDeComprasToolStripMenuItem2
             // 
             this.registroDeComprasToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.gestionDeInventariosToolStripMenuItem});
             this.registroDeComprasToolStripMenuItem2.Name = "registroDeComprasToolStripMenuItem2";
-            this.registroDeComprasToolStripMenuItem2.Size = new System.Drawing.Size(209, 24);
+            this.registroDeComprasToolStripMenuItem2.Size = new System.Drawing.Size(185, 22);
             this.registroDeComprasToolStripMenuItem2.Text = "REGISTRO COMPRAS";
             // 
             // gestionDeInventariosToolStripMenuItem
@@ -100,7 +100,7 @@
             this.gestionDeInventariosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.historialDeComprasToolStripMenuItem});
             this.gestionDeInventariosToolStripMenuItem.Name = "gestionDeInventariosToolStripMenuItem";
-            this.gestionDeInventariosToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.gestionDeInventariosToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.gestionDeInventariosToolStripMenuItem.Text = "INVENTARIOS";
             this.gestionDeInventariosToolStripMenuItem.Click += new System.EventHandler(this.gestionDeInventariosToolStripMenuItem_Click);
             // 
@@ -109,13 +109,13 @@
             this.historialDeComprasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pAGOSToolStripMenuItem});
             this.historialDeComprasToolStripMenuItem.Name = "historialDeComprasToolStripMenuItem";
-            this.historialDeComprasToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.historialDeComprasToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.historialDeComprasToolStripMenuItem.Text = "HISTORIAL ";
             // 
             // pAGOSToolStripMenuItem
             // 
             this.pAGOSToolStripMenuItem.Name = "pAGOSToolStripMenuItem";
-            this.pAGOSToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.pAGOSToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
             this.pAGOSToolStripMenuItem.Text = "PAGOS";
             // 
             // contextMenuStrip4
@@ -123,20 +123,20 @@
             this.contextMenuStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.rEGISTROCOMPRASToolStripMenuItem});
             this.contextMenuStrip4.Name = "contextMenuStrip4";
-            this.contextMenuStrip4.Size = new System.Drawing.Size(210, 28);
+            this.contextMenuStrip4.Size = new System.Drawing.Size(186, 26);
             // 
             // rEGISTROCOMPRASToolStripMenuItem
             // 
             this.rEGISTROCOMPRASToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuCompras});
             this.rEGISTROCOMPRASToolStripMenuItem.Name = "rEGISTROCOMPRASToolStripMenuItem";
-            this.rEGISTROCOMPRASToolStripMenuItem.Size = new System.Drawing.Size(209, 24);
+            this.rEGISTROCOMPRASToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
             this.rEGISTROCOMPRASToolStripMenuItem.Text = "REGISTRO COMPRAS";
             // 
             // MenuCompras
             // 
             this.MenuCompras.Name = "MenuCompras";
-            this.MenuCompras.Size = new System.Drawing.Size(223, 24);
+            this.MenuCompras.Size = new System.Drawing.Size(196, 22);
             this.MenuCompras.Text = "GESTION INVENTARIOS";
             // 
             // menuStrip1
@@ -169,6 +169,7 @@
             this.MenuRegistro.Name = "MenuRegistro";
             this.MenuRegistro.Size = new System.Drawing.Size(132, 34);
             this.MenuRegistro.Text = "REGISTRO ";
+            this.MenuRegistro.Click += new System.EventHandler(this.MenuRegistro_Click);
             // 
             // menuInventario
             // 

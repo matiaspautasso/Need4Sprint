@@ -59,7 +59,7 @@
             // crearCuentaToolStripMenuItem
             // 
             this.crearCuentaToolStripMenuItem.Name = "crearCuentaToolStripMenuItem";
-            this.crearCuentaToolStripMenuItem.Size = new System.Drawing.Size(148, 34);
+            this.crearCuentaToolStripMenuItem.Size = new System.Drawing.Size(173, 34);
             this.crearCuentaToolStripMenuItem.Text = "Crear cuenta";
             this.crearCuentaToolStripMenuItem.Click += new System.EventHandler(this.crearCuentaToolStripMenuItem_Click);
             // 
@@ -70,47 +70,48 @@
             this.historialDeVentasToolStripMenuItem,
             this.estadísticasToolStripMenuItem});
             this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
-            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(90, 34);
+            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(104, 34);
             this.ventasToolStripMenuItem.Text = "Ventas";
             this.ventasToolStripMenuItem.Click += new System.EventHandler(this.ventasToolStripMenuItem_Click);
             // 
             // registroDeVentaToolStripMenuItem
             // 
             this.registroDeVentaToolStripMenuItem.Name = "registroDeVentaToolStripMenuItem";
-            this.registroDeVentaToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.registroDeVentaToolStripMenuItem.Size = new System.Drawing.Size(305, 34);
             this.registroDeVentaToolStripMenuItem.Text = "Registro de Venta";
             this.registroDeVentaToolStripMenuItem.Click += new System.EventHandler(this.registroDeVentaToolStripMenuItem_Click);
             // 
             // historialDeVentasToolStripMenuItem
             // 
             this.historialDeVentasToolStripMenuItem.Name = "historialDeVentasToolStripMenuItem";
-            this.historialDeVentasToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.historialDeVentasToolStripMenuItem.Size = new System.Drawing.Size(305, 34);
             this.historialDeVentasToolStripMenuItem.Text = "Historial de Ventas";
             this.historialDeVentasToolStripMenuItem.Click += new System.EventHandler(this.historialDeVentasToolStripMenuItem_Click);
             // 
             // estadísticasToolStripMenuItem
             // 
             this.estadísticasToolStripMenuItem.Name = "estadísticasToolStripMenuItem";
-            this.estadísticasToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.estadísticasToolStripMenuItem.Size = new System.Drawing.Size(305, 34);
             this.estadísticasToolStripMenuItem.Text = "Estadísticas";
             this.estadísticasToolStripMenuItem.Click += new System.EventHandler(this.estadísticasToolStripMenuItem_Click);
             // 
             // comprasToolStripMenuItem
             // 
             this.comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
-            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(111, 34);
+            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(126, 34);
             this.comprasToolStripMenuItem.Text = "Compras";
+            this.comprasToolStripMenuItem.Click += new System.EventHandler(this.comprasToolStripMenuItem_Click);
             // 
             // proveedoresToolStripMenuItem
             // 
             this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
-            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(146, 34);
+            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(166, 34);
             this.proveedoresToolStripMenuItem.Text = "Proveedores";
             // 
             // agendaToolStripMenuItem
             // 
             this.agendaToolStripMenuItem.Name = "agendaToolStripMenuItem";
-            this.agendaToolStripMenuItem.Size = new System.Drawing.Size(101, 34);
+            this.agendaToolStripMenuItem.Size = new System.Drawing.Size(111, 34);
             this.agendaToolStripMenuItem.Text = "Agenda";
             // 
             // frmInicio
@@ -122,6 +123,7 @@
             this.MainMenuStrip = this.menuiNICIO;
             this.Name = "frmInicio";
             this.Text = "Inicio";
+            this.Load += new System.EventHandler(this.frmInicio_Load);
             this.menuiNICIO.ResumeLayout(false);
             this.menuiNICIO.PerformLayout();
             this.ResumeLayout(false);
